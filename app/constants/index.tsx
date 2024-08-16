@@ -1,5 +1,5 @@
 
-export const NavLinks = [
+export const NAV_LINKS = [
     {
         name: "#about",
         link: "#about",
@@ -50,4 +50,24 @@ export const TAB_DATA = [
         <li>Google Tag Manager Certified</li>
         </ul>
     )},
+]
+
+export const PROJECTS_DATA =[{
+    id:1,
+    title: "Ecommerce Website Healthy MarketApp",
+    description: "This is a website for Healthy MarketApp, a mobile application that helps people find healthy food options in their area. The website is built using React, Node.js, and MongoDB.",
+    image: "/healthy.png",
+    tags: ["All", "Mobile"],
+    githubUrl: "/",
+    previewUrl: "/"
+},
+{
+    id:2,
+    title: "PI Foods",
+    description: "This is a website for Healthy MarketApp, a mobile application that helps people find healthy food options in their area. The website is built using React, Node.js, and MongoDB.",
+    image: "/foods.png",
+    tags: ["All", "Web"],
+    githubUrl: "/",
+    previewUrl: "/"
+}
 ]
