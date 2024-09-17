@@ -47,7 +47,7 @@ export const NAV_LINKS = [
 export const PROJECTS_DATA =[{
     id:1,
     title: "Ecommerce Website Healthy MarketApp",
-    description: "Desarrollo de una SPA (Single Page Application) de una tienda de alimentos saludables, con una API propia para obtener los datos de los productos y las categorias de los mismos, asi como tambien pasarela de pagos de mercadopago.",
+    description: "Desarrollo de una SPA (Single Page Application) de una tienda de alimentos saludables, con una API propia para obtener los datos de los productos y las categorías de los mismos, así como también pasarela de pagos de mercadopago.",
     image: "/healthy.png",
     tags: ["All", "Mobile"],
     stack: "React, Redux toolkit, Tailwind CSS,Node.js, MongoDB, Mongoose, mercadopago.",
@@ -145,5 +145,17 @@ export const SkillData = [
         Image: "/docker.svg",
         width: 80,
         height: 80,
+    },
+    {
+        name: "java",
+        Image: "/java.svg",
+        width: 60,
+        height: 60,
+    },
+    {
+        name: "spring",
+        Image: "/spring.svg",
+        width: 70,
+        height: 70,
     },
 ];
