@@ -47,18 +47,20 @@ export const NAV_LINKS = [
 export const PROJECTS_DATA =[{
     id:1,
     title: "Ecommerce Website Healthy MarketApp",
-    description: "This is a website for Healthy MarketApp, a mobile application that helps people find healthy food options in their area. The website is built using React, Node.js, and MongoDB.",
+    description: "Desarrollo de una SPA (Single Page Application) de una tienda de alimentos saludables, con una API propia para obtener los datos de los productos y las categorias de los mismos, asi como tambien pasarela de pagos de mercadopago.",
     image: "/healthy.png",
     tags: ["All", "Mobile"],
+    stack: "React, Redux toolkit, Tailwind CSS,Node.js, MongoDB, Mongoose, mercadopago.",
     githubUrl: "https://github.com/EdgarFav/Healthy-Market-App",
     previewUrl: "https://healthy-market-app-production.vercel.app/"
 },
 {
     id:2,
     title: "PI Foods",
-    description: "This is a website for Healthy MarketApp, a mobile application that helps people find healthy food options in their area. The website is built using React, Node.js, and MongoDB.",
+    description: "Desarrollo de una SPA (Single Page Application) de dietas al cual consume datos de una API (“Spoonacular”) y utiliza una base de datos propia para almacenar las dietas cargadas en la página.",
     image: "/foods.png",
     tags: ["All", "Web"],
+    stack: "React, Redux, CSS, Node.js, postgreSQL,",
     githubUrl: "https://github.com/EdgarFav/PI-Foods",
     previewUrl: "https://pi-foods-chi.vercel.app/"
 }
@@ -131,5 +133,17 @@ export const SkillData = [
         Image: "/mongodb.png",
         width: 40,
         height: 40,
+    },
+    {
+        name: "Postgres",
+        Image: "/postgres.svg",
+        width: 80,
+        height: 80,
+    },
+    {
+        name: "Docker",
+        Image: "/docker.svg",
+        width: 80,
+        height: 80,
     },
 ];

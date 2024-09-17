@@ -24,7 +24,7 @@ const ProjectSection = () => {
     return (
         <section id='projects'>
             <h2 className='text-center text-4xl font-bold text-white mt-16 mb-8 md:mb-12'>My Projects</h2>
-            <div className='text-white flex flex-row justify-center items-center gap-2 py-6'>
+            {/* <div className='text-white flex flex-row justify-center items-center gap-2 py-6'>
                 <ProjectTag
                     onClick={handleTagChange}
                     tag="All"
@@ -40,8 +40,8 @@ const ProjectSection = () => {
                     tag="Mobile"
                     isSelected={tag === "Mobile"}
                 />
-            </div>
-            <ul ref={ref} className='grid md:grid-cols-3 gap-8 md:gap-12'>
+            </div> */}
+            <ul ref={ref} className='grid md:grid-cols-2 gap-8 md:gap-12'>
                 {filteredProjects.map((project) => (
                     <motion.li
                         variants={cardVariants}
@@ -54,6 +54,7 @@ const ProjectSection = () => {
                             key={project.id}
                             title={project.title}
                             description={project.description}
+                            stack={project.stack}
                             imgUrl={project.image}
                             githubUrl={project.githubUrl}
                             previewUrl={project.previewUrl}
