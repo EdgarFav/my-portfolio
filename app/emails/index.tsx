@@ -39,8 +39,7 @@ import {
           />
           <Text style={paragraph}>Hi {userFirstname},</Text>
           <Text style={paragraph}>
-            Welcome to nahucodes, the sales intelligence platform that helps you
-            uncover qualified leads and close deals faster.
+            Welcome to nahucodes
           </Text>
           <Section style={btnContainer}>
             <Button style={button} href="https://google.com">
