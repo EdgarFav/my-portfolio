@@ -12,7 +12,7 @@ import {
   } from "@react-email/components";
   import * as React from "react";
   
-  interface KoalaWelcomeEmailProps {
+  interface WelcomeEmailProps {
     userFirstname: string;
   }
   
@@ -22,7 +22,7 @@ import {
   
   export const WelcomeEmail = ({
     userFirstname,
-  }: KoalaWelcomeEmailProps) => (
+  }: WelcomeEmailProps) => (
     <Html>
       <Head />
       <Preview>
@@ -31,11 +31,11 @@ import {
       <Body style={main}>
         <Container style={container}>
           <Img
-            src="../static/logo.png"
-            width="70"
-            height="70"
-            alt="logo"
-            style={{margin: "0 auto", borderRadius: "50%"}}
+            src="/static/logo.png"
+            width="100"
+            height="100"
+            alt="Logo"
+            style={{...logo,borderRadius: "50%"}}
           />
           <Text style={paragraph}>Hi {userFirstname},</Text>
           <Text style={paragraph}>
@@ -43,7 +43,7 @@ import {
             uncover qualified leads and close deals faster.
           </Text>
           <Section style={btnContainer}>
-            <Button style={button} href="https://nahucodes.dev">
+            <Button style={button} href="https://google.com">
               Get started
             </Button>
           </Section>
@@ -53,9 +53,9 @@ import {
             nahucodes
           </Text>
           <Hr style={hr} />
-          {/* <Text style={footer}>
+          <Text style={footer}>
             470 Noor Ave STE B #1148, South San Francisco, CA 94080
-          </Text> */}
+          </Text>
         </Container>
       </Body>
     </Html>
@@ -63,7 +63,7 @@ import {
   
   WelcomeEmail.PreviewProps = {
     userFirstname: "",
-  } as KoalaWelcomeEmailProps;
+  } as WelcomeEmailProps;
   
   export default WelcomeEmail;
   
@@ -78,9 +78,9 @@ import {
     padding: "20px 0 48px",
   };
   
-  // const logo = {
-  //   margin: "0 auto",
-  // };
+  const logo = {
+    margin: "0 auto",
+  };
   
   const paragraph = {
     fontSize: "16px",
@@ -107,8 +107,8 @@ import {
     margin: "20px 0",
   };
   
-  // const footer = {
-  //   color: "#8898aa",
-  //   fontSize: "12px",
-  // };
+  const footer = {
+    color: "#8898aa",
+    fontSize: "12px",
+  };
   

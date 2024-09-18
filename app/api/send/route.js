@@ -1,4 +1,4 @@
-import WelcomeEmail from '../../../react-email-starter/emails';
+import WelcomeEmail from '../../emails';
 import { Resend } from 'resend';
 const fromEmail = process.env.FROM_EMAIL;
 const resend = new Resend(process.env.RESEND_API_KEY);
@@ -9,7 +9,7 @@ export async function POST(req, res) {
     try {
         const { data, error } = await resend.emails.send({
             from: fromEmail,
-            to: [email],
+            to: [email, fromEmail],
             subject: subject,
             react: WelcomeEmail({ userFirstname: email }),
         });
