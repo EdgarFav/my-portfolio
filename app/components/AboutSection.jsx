@@ -1,6 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
-'use client'
-import React, { useState, useTransition } from 'react'
+// import React, { useState, useTransition } from 'react'
 import Image from 'next/image'
 import TabButton from './TabButton'
 import { TAB_DATA } from '../constants'
@@ -31,7 +30,7 @@ const AboutSection = () => {
                     Algunos de mis exitos incluyen terminar mis estudios a la par de mis negocios y colaborar activamente con mi equipo de proyecto final en el cual <strong className='italic text-indigo-400'>desarrollamos una e-commerce de productos saludables para el mercado local.</strong>
                 </p>
                 <p><strong className='italic text-indigo-400'>
-                    El proyecto fue exitoso y recibido con mucha entusiasmo por parte de nuestros profesores y compañeros.
+                    El proyecto fue muy exitoso y bien recibido por parte de nuestros profesores y compañeros.
                 </strong></p>
                 {/* <div className='flex flex-row justify-center mt-8'>
                         <TabButton
@@ -52,7 +51,7 @@ const AboutSection = () => {
                     </div> */}
                 {/* <div className='mt-8'>{tabData.content}</div> */}
             </div>
-            <Image src='/dragon.jpg' alt='About me' width="200" height="200"
+            <Image src='/me.png' alt='About me' width="200" height="200"
                 className=' order-1 object-cover w-64 h-full p-1 md:order-2 rotate-3 lg:p-2 aspect-square rounded-2xl bg-black/20 dark:bg-yellow-500/5 ring-1 ring-black/70 dark:ring-white/20' style="object-position: 50% 50%" />
         </section>
     )
