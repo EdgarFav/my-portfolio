@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 'use client'
 import React, { useState, useTransition } from 'react'
 import Image from 'next/image'
@@ -19,11 +20,19 @@ const AboutSection = () => {
     return (
         <section className='flex flex-col items-center justify-center gap-8 md:flex-row lg:px-40' >
 
-            <div className='mt-4 md:mt-0 text-left order-2 md:order-1'>
-                <p className='text-base lg:text-lg'>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ipsam dolorum vel excepturi expedita culpa iste dignissimos tempore doloremque, beatae asperiores perferendis nisi in hic facere aperiam, placeat saepe laudantium.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus perspiciatis maiores unde, animi nemo numquam quisquam expedita ducimus nobis id deleniti? Perferendis dolorum vel optio inventore incidunt rerum, sequi enim!
+            <div className='[&>p]:mb-4 text-left order-2 md:order-1 text-base lg:text-lg text-pretty'>
+                <p>
+                    Me llamo Edgar Favela pero mis conocidos me dicen 'Nahú' (mi segundo nombre). Empece en la programacion en el colegio con Java y C#, años mas tarde conoci el fascinante mundo de la programación web con JavaScript.
                 </p>
+                <p><strong className='italic text-indigo-400'>
+                    Desde entonces me he dedicado a disfrutar aprendiendo y crear experiencias web increibles para los usuarios.
+                </strong></p>
+                <p>
+                    Algunos de mis exitos incluyen terminar mis estudios a la par de mis negocios y colaborar activamente con mi equipo de proyecto final en el cual <strong className='italic text-indigo-400'>desarrollamos una e-commerce de productos saludables para el mercado local.</strong>
+                </p>
+                <p><strong className='italic text-indigo-400'>
+                    El proyecto fue exitoso y recibido con mucha entusiasmo por parte de nuestros profesores y compañeros.
+                </strong></p>
                 {/* <div className='flex flex-row justify-center mt-8'>
                         <TabButton
                             selectTab={() => handleTabChange("Skills")}
