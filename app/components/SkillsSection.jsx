@@ -8,7 +8,7 @@ import { Autoplay } from "swiper/modules";
 
 const SkillsSection = () => {
     return (
-        <section className="flex items-center justify-center py-20" id="skills">
+        <section className="flex items-center justify-center py-20" id="tecnologias">
             <div className="flex flex-col gap-20 max-w-[80%] text-center items-center">
                 <h1 className="font-semibold text-white text-[50px]">
                     Habilidades{" "}

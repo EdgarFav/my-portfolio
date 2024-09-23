@@ -12,7 +12,7 @@ export async function POST(req, res) {
             from: fromEmail,
             to: [email, principalEmail],
             subject: 'Nuevo mensaje de contacto',
-            react: WelcomeEmail({ userFirstname: firstName }),
+            react: WelcomeEmail({ userFirstname: firstName, message }),
             // react: (
             //     <>
             //         <h1>{subject}</h1>

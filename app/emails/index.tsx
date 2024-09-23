@@ -1,19 +1,19 @@
 import {
     Body,
-    Button,
+    Section,
     Container,
     Head,
     Hr,
     Html,
     Img,
     Preview,
-    Section,
     Text,
   } from "@react-email/components";
   import * as React from "react";
   
   interface WelcomeEmailProps {
     userFirstname: string;
+    message: string;
   }
   
   const baseUrl = process.env.VERCEL_URL
@@ -22,39 +22,41 @@ import {
   
   export const WelcomeEmail = ({
     userFirstname,
+    message,
   }: WelcomeEmailProps) => (
     <Html>
       <Head />
       <Preview>
-        The sales intelligence platform that helps you uncover qualified leads.
+      Tu mensaje ha sido recibido. Te responderé en breve.
       </Preview>
       <Body style={main}>
         <Container style={container}>
           <Img
-            src="https://res.cloudinary.com/ds1hq1nwi/image/upload/v1727111680/logo_p8jhxe.png"
+            src="https://nahucodes.dev/logo.png"
             width="100"
             height="100"
             alt="Logo"
             style={{...logo,borderRadius: "50%"}}
           />
-          <Text style={paragraph}>Hi {userFirstname},</Text>
+          <Text style={heading}>Hola {userFirstname},</Text>
           <Text style={paragraph}>
-            Welcome to nahucodes
+          Gracias por ponerse en contacto conmigo. He recibido su mensaje y me pondré en contacto con usted lo antes posible.
           </Text>
-          <Section style={btnContainer}>
-            <Button style={button} href="https://google.com">
-              Get started
-            </Button>
-          </Section>
-          <Text style={paragraph}>
-            Best,
-            <br />
-            nahucodes
+          <Text style={subheading}>Copia de su mensaje:</Text>
+          <Section style={messageContainer}>
+          <Text style={recruiterMessage}>
+            {message}
           </Text>
-          <Hr style={hr} />
-          <Text style={footer}>
-            470 Noor Ave STE B #1148, South San Francisco, CA 94080
-          </Text>
+        </Section>
+        <Text style={footer}>
+          Si tiene alguna consulta adicional, no dude en responder a este correo.  
+          <br></br>
+          Saludos, 
+          <br></br> 
+          Nahu Favela
+          <br></br>  
+          nahucodes
+        </Text>
         </Container>
       </Body>
     </Html>
@@ -86,28 +88,31 @@ import {
     lineHeight: "26px",
   };
   
-  const btnContainer = {
-    textAlign: "center" as const,
-  };
-  
-  const button = {
-    backgroundColor: "#5F51E8",
-    borderRadius: "3px",
-    color: "#fff",
-    fontSize: "16px",
-    textDecoration: "none",
-    textAlign: "center" as const,
-    display: "block",
-    padding: "12px",
-  };
-  
-  const hr = {
-    borderColor: "#cccccc",
-    margin: "20px 0",
-  };
-  
   const footer = {
-    color: "#8898aa",
-    fontSize: "12px",
+    fontSize: '14px',
+    marginTop: '20px',
   };
   
+  const heading = {
+    fontSize: '18px',
+    fontWeight: 'bold',
+    marginBottom: '10px',
+  };
+
+  const subheading = {
+    fontSize: '16px',
+    fontWeight: 'bold',
+    marginBottom: '10px',
+  };
+
+  const messageContainer = {
+    backgroundColor: '#f4f4f4',
+    padding: '15px',
+    borderRadius: '5px',
+    marginBottom: '20px',
+  };
+
+  const recruiterMessage = {
+    fontSize: '14px',
+    color: '#555',
+  };
