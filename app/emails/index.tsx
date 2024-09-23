@@ -54,8 +54,6 @@ import {
           Saludos, 
           <br></br> 
           Nahu Favela
-          <br></br>  
-          nahucodes
         </Text>
         </Container>
       </Body>
