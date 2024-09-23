@@ -23,13 +23,13 @@ const AboutSection = () => {
                 <p>
                     Me llamo Edgar Favela pero mis conocidos me dicen 'Nahú' (mi segundo nombre). Empece en la programacion en el colegio con Java y C#, años mas tarde conoci el fascinante mundo de la programación web con JavaScript.
                 </p>
-                <p><strong className='italic text-indigo-400'>
+                <p><strong className='italic text-yellow-200'>
                     Desde entonces me he dedicado a disfrutar aprendiendo y crear experiencias web increibles para los usuarios.
                 </strong></p>
                 <p>
-                    Algunos de mis exitos incluyen terminar mis estudios a la par de mis negocios y colaborar activamente con mi equipo de proyecto final en el cual <strong className='italic text-indigo-400'>desarrollamos una e-commerce de productos saludables para el mercado local.</strong>
+                    Algunos de mis exitos incluyen terminar mis estudios a la par de mis negocios y colaborar activamente con mi equipo de proyecto final en el cual <strong className='italic text-yellow-200'>desarrollamos una e-commerce de productos saludables para el mercado local.</strong>
                 </p>
-                <p><strong className='italic text-indigo-400'>
+                <p><strong className='italic text-yellow-200'>
                     El proyecto fue muy exitoso y bien recibido por parte de nuestros profesores y compañeros.
                 </strong></p>
                 {/* <div className='flex flex-row justify-center mt-8'>
