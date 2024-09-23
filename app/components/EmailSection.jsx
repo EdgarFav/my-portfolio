@@ -5,6 +5,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import GithubIcon from '/public/github.svg'
 import LinkedinIcon from '/public/linkedin.svg'
+import GmailIcon from '/public/gmail.svg'
 
 const EmailSection = () => {
     const [isSubmitted, setIsSubmitted] = useState(false)
@@ -49,6 +50,9 @@ const EmailSection = () => {
                     </Link>
                     <Link href="https://www.linkedin.com/in/edgar-nah%C3%BA-favela-b3a639239/" target="_blank">
                         <Image src={LinkedinIcon} alt='Linkedin-icon' />
+                    </Link>
+                    <Link href="mailto:edgarfda17@gmail.com" target="_blank">
+                        <Image src={GmailIcon} alt='Gmail-icon' />
                     </Link>
                 </div>
             </div>
