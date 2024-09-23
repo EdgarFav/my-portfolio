@@ -1,24 +1,24 @@
 
 export const NAV_LINKS = [
     {
-        name: "#about",
-        link: "#about",
-        title: "About",
+        name: "#sobre-mi",
+        link: "#sobre-mi",
+        title: "Sobre mi",
     },
     {
-        name: "#skills",
-        link: "#skills",
-        title: "Skills",
+        name: "#tecnologias",
+        link: "#tecnologias",
+        title: "Tecnologias",
     },
     {
-        name: "#projects",
-        link: "#projects",
-        title: "Projects",
+        name: "#proyectos",
+        link: "#proyectos",
+        title: "Proyectos",
     },
     {
-        name: "#contact",
-        link: "#contact",
-        title: "Contact",
+        name: "#contacto",
+        link: "#contacto",
+        title: "Contacto",
     },
 ];
 
@@ -97,13 +97,6 @@ export const SkillData = [
         width: 80,
         height: 80,
     },
-    {
-        name: "Redux",
-        Image: "/redux.png",
-        width: 80,
-        height: 80,
-    },
-
     {
         name: "TypeScript",
         Image: "/ts.png",

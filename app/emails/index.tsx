@@ -31,7 +31,7 @@ import {
       <Body style={main}>
         <Container style={container}>
           <Img
-            src="/static/logo.png"
+            src="https://res.cloudinary.com/ds1hq1nwi/image/upload/v1727111680/logo_p8jhxe.png"
             width="100"
             height="100"
             alt="Logo"

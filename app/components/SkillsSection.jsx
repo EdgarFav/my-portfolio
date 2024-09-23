@@ -11,12 +11,12 @@ const SkillsSection = () => {
         <section className="flex items-center justify-center py-20" id="skills">
             <div className="flex flex-col gap-20 max-w-[80%] text-center items-center">
                 <h1 className="font-semibold text-white text-[50px]">
-                    Skills{" "}
+                    Habilidades{" "}
                     <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-500">
                         {" "}
                         &{" "}
                     </span>
-                    Technologies
+                    Tecnológicas
                 </h1>
                 <Swiper
                     spaceBetween={10}

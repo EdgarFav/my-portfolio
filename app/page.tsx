@@ -14,7 +14,7 @@ export default function Home() {
         <HeroSection />
         <ProjectSection />
         <SkillsSection/>
-        <h2 className='text-4xl font-bold mb-7 mt-20 text-center' id='about'>About me</h2>
+        <h2 className='text-4xl font-bold mb-7 mt-20 text-center' id='about'>Sobre mi</h2>
         <AboutSection />
         <EmailSection />
       </div>
