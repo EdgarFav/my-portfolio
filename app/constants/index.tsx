@@ -151,4 +151,16 @@ export const SkillData = [
         width: 70,
         height: 70,
     },
+    {
+        name: "git",
+        Image: "/git.svg",
+        width: 70,
+        height: 70,
+    },
+    {
+        name: "firebase",
+        Image: "/firebase.svg",
+        width: 70,
+        height: 70,
+    },
 ];
