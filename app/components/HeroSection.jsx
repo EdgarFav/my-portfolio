@@ -35,7 +35,7 @@ const HeroSection = () => {
 
                         <button className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 text-white'><Link href="https://www.linkedin.com/in/edgar-nah%C3%BA-favela-b3a639239/" target="_blank" >Hire me</Link></button>
                         <button className='px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-800 text-white mt-3'>
-                            <a href="https://drive.google.com/file/d/1mJoLa7QZg9BCALRB_aWUO39ebrJa0spS/view?usp=drive_link" target='_blank' download="EdgarFavela-CV"><span className='block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2'>Download CV</span></a>
+                            <a href="https://drive.google.com/file/d/14Q5p5XrxrsXy3bUndEacokrts35eH-FE/view?usp=drive_link" target='_blank' download="EdgarFavela-CV"><span className='block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2'>Download CV</span></a>
                         </button>
                     </div>
                 </motion.div>
