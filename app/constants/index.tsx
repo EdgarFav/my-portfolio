@@ -50,7 +50,7 @@ export const PROJECTS_DATA =[{
     description: "Desarrollo de una SPA (Single Page Application) de una tienda de alimentos saludables, con una API propia para obtener los datos de los productos y categorías de los mismos, así como también compras dentro del sitio con pasarela de pagos de mercadopago.",
     image: "/healthy.avif",
     tags: ["All", "Mobile"],
-    stack: "React, Redux toolkit, Tailwind CSS,Node.js, MongoDB, Mongoose, mercadopago.",
+    stack: "React, Redux toolkit, TailwindCSS, Node.js, MongoDB, Mongoose, pasarela de Mercadopago.",
     githubUrl: "https://github.com/EdgarFav/Healthy-Market-App",
     previewUrl: "https://healthy-market-app-production.vercel.app/"
 },
@@ -63,6 +63,16 @@ export const PROJECTS_DATA =[{
     stack: "React, Redux, CSS, Node.js, postgreSQL,",
     githubUrl: "https://github.com/EdgarFav/PI-Foods",
     previewUrl: "https://pi-foods-chi.vercel.app/"
+},
+{
+    id:3,
+    title: "Star Wars API microservices",
+    description: "Desarrollo de una API de microservicios basada en el mundo de Star Wars con Docker y Docker Compose, desplegada en la nube con GCP (Google Cloud Platform).",
+    image: "/microservices.avif",
+    tags: ["All", "Web"],
+    stack: "Node.js, MongoDB, Mongoose, Docker, Docker Compose, GCP(Google Cloud Platform)",
+    githubUrl: "https://github.com/EdgarFav/star_wars_api_microservices",
+    previewUrl: "http://104.154.230.18:8000/characters/api-docs"
 }
 ]
 
