@@ -67,10 +67,10 @@ export const PROJECTS_DATA =[{
 {
     id:3,
     title: "Star Wars API microservices",
-    description: "Desarrollo de una API de microservicios basada en el mundo de Star Wars con Docker y Docker Compose, desplegada en la nube con GCP (Google Cloud Platform).",
+    description: "Desarrollo de una API de microservicios basada en el mundo de Star Wars con Docker y Docker Compose, desplegada en la nube con GCP (Google Cloud Platform) y documentada con Swagger.",
     image: "/microservices.avif",
     tags: ["All", "Web"],
-    stack: "Node.js, MongoDB, Mongoose, Docker, Docker Compose, GCP(Google Cloud Platform)",
+    stack: "Node.js, MongoDB, Mongoose, Docker, Docker Compose, GCP(Google Cloud Platform), Swagger",
     githubUrl: "https://github.com/EdgarFav/star_wars_api_microservices",
     previewUrl: "http://104.154.230.18:8000/characters/api-docs"
 }
