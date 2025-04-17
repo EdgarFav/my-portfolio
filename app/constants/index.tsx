@@ -49,7 +49,7 @@ export const PROJECTS_DATA =[{
     title: "Ecommerce Website Healthy MarketApp",
     description: "Desarrollo de una SPA (Single Page Application) de una tienda de alimentos saludables, con una API propia para obtener los datos de los productos y categorías de los mismos, así como también compras dentro del sitio con pasarela de pagos de mercadopago.",
     image: "/healthy.avif",
-    tags: ["All", "Web"],
+    tags: ["Todos", "Web"],
     stack: "React, Redux toolkit, TailwindCSS, Node.js, MongoDB, Mongoose, pasarela de Mercadopago.",
     githubUrl: "https://github.com/EdgarFav/Healthy-Market-App",
     previewUrl: "https://healthy-market-app-production.vercel.app/"
@@ -59,7 +59,7 @@ export const PROJECTS_DATA =[{
     title: "PI Foods",
     description: "Desarrollo de una SPA (Single Page Application) de recetas de comidas saludables la cual consume datos de una API (“Spoonacular”) y utiliza una base de datos propia para almacenar las recetas cargadas en la página.",
     image: "/foods.avif",
-    tags: ["All", "Web"],
+    tags: ["Todos", "Web"],
     stack: "React, Redux, CSS, Node.js, postgreSQL,",
     githubUrl: "https://github.com/EdgarFav/PI-Foods",
     previewUrl: "https://pi-foods-chi.vercel.app/"
@@ -69,7 +69,7 @@ export const PROJECTS_DATA =[{
     title: "Star Wars API microservices",
     description: "Desarrollo de una API de microservicios basada en el mundo de Star Wars con Docker y Docker Compose, desplegada en la nube con GCP (Google Cloud Platform) y documentada con Swagger.",
     image: "/microservices.avif",
-    tags: ["All", "Web"],
+    tags: ["Todos", "Web"],
     stack: "Node.js, MongoDB, Mongoose, Docker, Docker Compose, GCP(Google Cloud Platform), Swagger",
     githubUrl: "https://github.com/EdgarFav/star_wars_api_microservices",
     previewUrl: "http://104.154.230.18:8000/characters/api-docs"
@@ -79,7 +79,7 @@ export const PROJECTS_DATA =[{
     title: "Red Social de videos (Aora)",
     description: "Desarrollo de una App movil con React Native, Expo y para el estilizado con NativeWind que es lo mismo que TailwindCSS para React Native; Appwrite BaaS (Plataforma No Code similar a Firebase) como backend para el almacenamiento de videos y autentificación de usuarios.",
     image: "/aora.png",
-    tags: ["All", "Mobile"],
+    tags: ["Todos", "Movil"],
     stack: "React Native, Expo, TailwindCSS, Appwrite",
     githubUrl: "",
     previewUrl: "https://res.cloudinary.com/nahucodes/video/upload/v1743471569/Grabaci%C3%B3n_de_pantalla_2025-03-31_193656_zfmico.mp4"

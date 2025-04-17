@@ -6,7 +6,7 @@ import ProjectTag from './ProjectTag'
 import { motion, useInView } from 'framer-motion'
 
 const ProjectSection = () => {
-    const [tag, setTag] = useState("All")
+    const [tag, setTag] = useState("Todos")
     const ref = useRef(null)
     const isInView = useInView(ref, { once: true })
     const handleTagChange = (newTag) => {
@@ -27,8 +27,8 @@ const ProjectSection = () => {
             <div className='text-white flex flex-row justify-center items-center gap-2 py-6'>
                 <ProjectTag
                     onClick={handleTagChange}
-                    tag="All"
-                    isSelected={tag === "All"}
+                    tag="Todos"
+                    isSelected={tag === "Todos"}
                 />
                 <ProjectTag
                     onClick={handleTagChange}
@@ -37,8 +37,8 @@ const ProjectSection = () => {
                 />
                 <ProjectTag
                     onClick={handleTagChange}
-                    tag="Mobile"
-                    isSelected={tag === "Mobile"}
+                    tag="Movil"
+                    isSelected={tag === "Movil"}
                 />
             </div>
             <ul ref={ref} className='grid md:grid-cols-2 gap-8 md:gap-12'>
