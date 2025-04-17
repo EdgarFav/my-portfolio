@@ -77,12 +77,22 @@ export const PROJECTS_DATA =[{
 {
     id:4,
     title: "Red Social de videos (Aora)",
-    description: "Desarrollo de una App movil con React Native, Expo y para el estilizado con NativeWind que es lo mismo que TailwindCSS para React Native; Appwrite BaaS (Plataforma No Code similar a Firebase) como backend para el almacenamiento de videos y autentificación de usuarios.",
+    description: "Desarrollo de una App movil con React Native, Expo y para el estilizado con NativeWind que es lo mismo que TailwindCSS para React Native; Appwrite BaaS (Plataforma No Code similar a Firebase) como backend para el almacenamiento de videos y autenticación de usuarios.",
     image: "/aora.png",
     tags: ["Todos", "Movil"],
     stack: "React Native, Expo, TailwindCSS, Appwrite",
-    githubUrl: "",
+    githubUrl: "https://github.com/EdgarFav/react-native-app",
     previewUrl: "https://res.cloudinary.com/nahucodes/video/upload/v1743471569/Grabaci%C3%B3n_de_pantalla_2025-03-31_193656_zfmico.mp4"
+},
+{
+    id:5,
+    title: "Dices app",
+    description: "Desarrollo de una App movil con Ionic y Capacitor.js para emular el juego de cara o sello con una moneda, tambien emula un dado y por ultimo emula la famosa bola magica 8, la cual responde a tus preguntas de diferentes maneras.",
+    image: "/dices.png",
+    tags: ["Todos", "Movil"],
+    stack: "Ionic, Capacitor.js, React, SASS, Typescript, Mui Material",
+    githubUrl: "https://github.com/EdgarFav/Dices",
+    previewUrl: "https://res.cloudinary.com/nahucodes/video/upload/v1744917058/Grabaci%C3%B3n_de_pantalla_2025-04-17_130138_b8hmtw.mp4"
 }
 ]
 
