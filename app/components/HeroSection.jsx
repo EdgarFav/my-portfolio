@@ -30,7 +30,7 @@ const HeroSection = () => {
                         />
                     </h1>
                     {/* <p className='text-[#ADB7BE] text-base sm:text-lg lg:text-xl mb-5'>+2 years of experience, I am passionate Fullstack Web Developer with a disciplined and organized work ethic, driven by self-motivation, responsibility, and strong commitment to teamwork. Always eager to embrace challenges and continuously pursue personal and professional growth</p> */}
-                    <p className='text-[#ADB7BE] text-base sm:text-lg lg:text-xl mb-5 text-left text-pretty'><strong className='text-yellow-200'>+3 años de experiencia. Desarrollador Web Full Stack</strong> de Tamaulipas, Mexico, especializado en el desarrollo de aplicaciones web y APIs con un enfoque en la arquitectura y diseño de software.</p>
+                    <p className='text-[#ADB7BE] text-base sm:text-lg lg:text-xl mb-5 text-left text-pretty'><strong className='text-yellow-200'>+3 años de experiencia. Desarrollador Web Full Stack</strong> especializado en arquitectura de software, desarrollo de aplicaciones web y APIs. Trabajo principalmente con React, Next.js, Node.js, TypeScript, MongoDB y PostgreSQL. Actualmente también me especializo en desarrollo móvil con React Native y Flutter. Basado en Tamaulipas, México.</p>
                     <div>
 
                         <button className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 text-white font'><Link href="https://www.linkedin.com/in/edgar-nah%C3%BA-favela-b3a639239/" target="_blank" >Trabajemos juntos</Link></button>
