@@ -44,8 +44,8 @@ export const NAV_LINKS = [
 //     )},
 // ]
 
-export const PROJECTS_DATA =[{
-    id:1,
+export const PROJECTS_DATA = [{
+    id: 1,
     title: "Ecommerce Website Healthy MarketApp",
     description: "Desarrollo de una SPA (Single Page Application) de una tienda de alimentos saludables, con una API propia para obtener los datos de los productos y categorías de los mismos, así como también compras dentro del sitio con pasarela de pagos de mercadopago.",
     image: "/healthy.avif",
@@ -55,7 +55,7 @@ export const PROJECTS_DATA =[{
     previewUrl: "https://healthy-market-app-production.vercel.app/"
 },
 {
-    id:2,
+    id: 2,
     title: "PI Foods",
     description: "Desarrollo de una SPA (Single Page Application) de recetas de comidas saludables la cual consume datos de una API (“Spoonacular”) y utiliza una base de datos propia para almacenar las recetas cargadas en la página.",
     image: "/foods.avif",
@@ -65,7 +65,7 @@ export const PROJECTS_DATA =[{
     previewUrl: "https://pi-foods-chi.vercel.app/"
 },
 {
-    id:3,
+    id: 3,
     title: "Star Wars API microservices",
     description: "Desarrollo de una API de microservicios basada en el mundo de Star Wars con Docker y Docker Compose, desplegada en la nube con GCP (Google Cloud Platform) y documentada con Swagger.",
     image: "/microservices.avif",
@@ -75,7 +75,7 @@ export const PROJECTS_DATA =[{
     previewUrl: "http://104.154.230.18:8000/characters/api-docs"
 },
 {
-    id:4,
+    id: 4,
     title: "Red Social de videos (Aora)",
     description: "Desarrollo de una App movil con React Native, Expo y para el estilizado con NativeWind que es lo mismo que TailwindCSS para React Native; Appwrite BaaS (Plataforma No Code similar a Firebase) como backend para el almacenamiento de videos y autenticación de usuarios.",
     image: "/aora.png",
@@ -85,7 +85,7 @@ export const PROJECTS_DATA =[{
     previewUrl: "https://res.cloudinary.com/nahucodes/video/upload/v1743471569/Grabaci%C3%B3n_de_pantalla_2025-03-31_193656_zfmico.mp4"
 },
 {
-    id:5,
+    id: 5,
     title: "Dices app",
     description: "Desarrollo de una App movil con Ionic y Capacitor.js para emular el juego de cara o sello con una moneda, tambien emula un dado y por ultimo emula la famosa bola magica 8, la cual responde a tus preguntas de diferentes maneras.",
     image: "/dices.png",
@@ -93,6 +93,16 @@ export const PROJECTS_DATA =[{
     stack: "Ionic, Capacitor.js, React, SASS, Typescript, Mui Material",
     githubUrl: "https://github.com/EdgarFav/Dices",
     previewUrl: "https://res.cloudinary.com/nahucodes/video/upload/v1744917058/Grabaci%C3%B3n_de_pantalla_2025-04-17_130138_b8hmtw.mp4"
+},
+{
+    id: 6,
+    title: "Fullness",
+    description: "Desarrollo de una plataforma web Fullstackcon Next.js y TailwindCSS para gestionar la salud de los usuarios por medio de contactar fisioterapeutas y tambien para que los profesionales en este campo puedan unirse a la comunidad y trabajar como freelancers.",
+    image: "/fullness.png",
+    tags: ["Todos", "Web"],
+    stack: "Next.js, TailwindCSS, Node.js, MongoDB, Mongoose, Express.js, socket.io, Typescript, Redux Toolkit, Zod, Nodemailer",
+    githubUrl: "",
+    previewUrl: "https://fisiomfulness.vercel.app/"
 }
 ]
 
@@ -198,12 +208,12 @@ export const SkillData = [
         Image: "/flutter.svg",
         width: 60,
         height: 60,
-    },{
+    }, {
         name: "Dart",
         Image: "/dart.svg",
         width: 70,
         height: 70,
-    },{
+    }, {
         name: "React Native",
         Image: "/react.png",
         width: 70,
