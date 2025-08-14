@@ -3,6 +3,7 @@
 import Image from 'next/image'
 import TabButton from './TabButton'
 import { TAB_DATA } from '../constants'
+import profilePic from '@/public/me.avif'
 
 const AboutSection = () => {
     // const [tab, setTab] = useState("Skills")
@@ -51,7 +52,7 @@ const AboutSection = () => {
                     </div> */}
                 {/* <div className='mt-8'>{tabData.content}</div> */}
             </div>
-            <Image src='/me.avif' alt='About me' width="200" height="200"
+            <Image src={profilePic} alt='About me' width="200" height="200"
                 className=' order-1 object-cover w-64 h-full p-1 md:order-2 rotate-3 lg:p-2 aspect-square rounded-2xl bg-black/20 dark:bg-yellow-500/5 ring-1 ring-black/70 dark:ring-white/20' style="object-position: 50% 50%" />
         </section>
     )
