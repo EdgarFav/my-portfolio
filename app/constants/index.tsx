@@ -134,8 +134,7 @@ export const PROJECTS_DATA = [
       "Aplicación web no oficial para cotizar envíos de paquetes a través de J&T Express. Permite a los usuarios ingresar detalles de las medidas y peso del paquete, así como región de origen y destino para cotizar costos de envíos con cobertura en toda la república Mexicana.",
     image: "/cotizador.png",
     tags: ["Todos", "Web"],
-    stack:
-      "React.js 19, TypeScript, Tailwind CSS, Vercel Analytics",
+    stack: "React.js 19, TypeScript, Tailwind CSS, Vercel Analytics",
     githubUrl: "",
     previewUrl: "https://jyt-cotizador.vercel.app/",
   },
@@ -161,7 +160,7 @@ export const SkillData = [
     height: 70,
   },
   {
-    name: "Tailwind Css",
+    name: "Tailwind",
     Image: "/tailwind.png",
     width: 70,
     height: 70,
@@ -179,7 +178,7 @@ export const SkillData = [
     height: 70,
   },
   {
-    name: "Next js",
+    name: "Next.js",
     Image: "/next.png",
     width: 70,
     height: 70,
@@ -191,19 +190,19 @@ export const SkillData = [
     height: 70,
   },
   {
-    name: "Node js",
+    name: "Node.js",
     Image: "/node-js.png",
     width: 70,
     height: 70,
   },
   {
-    name: "MongoDb",
+    name: "Mongo",
     Image: "/mongodb.png",
     width: 40,
     height: 40,
   },
   {
-    name: "PostgreSQL",
+    name: "Postgre",
     Image: "/postgres.svg",
     width: 70,
     height: 70,
@@ -263,7 +262,7 @@ export const SkillData = [
     height: 70,
   },
   {
-    name: "Express js",
+    name: "Express.js",
     Image: "/expressjs_dark.svg",
     width: 70,
     height: 70,
