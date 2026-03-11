@@ -138,6 +138,18 @@ export const PROJECTS_DATA = [
     githubUrl: "",
     previewUrl: "https://jyt-cotizador.vercel.app/",
   },
+  {
+    id: 9,
+    title: "Sales Manager Dashboard",
+    description:
+      "Plataforma integral de análisis y gestión de ventas con visualización de datos en tiempo real, desarrollada con React 19 + TailwindCSS + TypeScript. Integra un frontend reactivo con gráficos interactivos, un backend escalable con Nest.js y orquestación en contenedores Docker para deployment automático en AWS.",
+    image: "/dashboard.png",
+    tags: ["Todos", "Web"],
+    stack:
+      "React 19 + Tailwind, Nest.js, TypeScript, Docker, AWS (EC2, RDS, S3)",
+    githubUrl: "https://github.com/EdgarFav/dashboard-aws",
+    previewUrl: "https://dashboard-aws-eight.vercel.app/",
+  },
 ];
 
 export const SkillData = [

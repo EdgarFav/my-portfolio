@@ -3,7 +3,7 @@
 import Image from 'next/image'
 import TabButton from './TabButton'
 import { TAB_DATA } from '../constants'
-import profilePic from '@/public/me.webp'
+import profilePic from '@/public/profile.png'
 
 const AboutSection = () => {
     // const [tab, setTab] = useState("Skills")
