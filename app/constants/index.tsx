@@ -59,6 +59,19 @@ export const PROJECTS_DATA = [
   },
   {
     id: 2,
+    title: "Sales Manager Dashboard",
+    description:
+      "Plataforma integral de análisis y gestión de ventas con visualización de datos en tiempo real, gráficos interactivos y backend escalable desplegado en AWS con contenedores Docker.\n\nUsuario para acceder a la plataforma:\nEmail: admin@smartforecast.com\nPassword: admin123\n\nArchivo de pruebas en la raíz del proyecto",
+    image: "/dashboard.png",
+    tags: ["Todos", "Web"],
+    stack:
+      "React 19, Tailwind CSS, Nest.js, TypeScript, Docker, AWS",
+    highlights: ["Base de Datos en AWS (RDS)", "Gráficos interactivos", "Datos en tiempo real"],
+    githubUrl: "https://github.com/EdgarFav/dashboard-aws",
+    previewUrl: "https://dashboard-aws-eight.vercel.app/",
+  },
+  {
+    id: 3,
     title: "PI Foods",
     description:
       "Aplicación SPA de recetas saludables que consume la API de Spoonacular y cuenta con base de datos propia para almacenar recetas creadas por los usuarios.",
@@ -70,7 +83,7 @@ export const PROJECTS_DATA = [
     previewUrl: "https://pi-foods-chi.vercel.app/",
   },
   {
-    id: 3,
+    id: 4,
     title: "Star Wars API Microservices",
     description:
       "Arquitectura de microservicios basada en el universo de Star Wars, containerizada con Docker Compose, desplegada en Google Cloud Platform y documentada con Swagger.",
@@ -83,7 +96,7 @@ export const PROJECTS_DATA = [
     previewUrl: "http://104.154.230.18:8000/characters/api-docs",
   },
   {
-    id: 4,
+    id: 5,
     title: "Red Social de Videos — Aora",
     description:
       "App móvil de red social para compartir videos, con autenticación de usuarios y almacenamiento en la nube mediante Appwrite como Backend as a Service.",
@@ -96,7 +109,7 @@ export const PROJECTS_DATA = [
       "https://res.cloudinary.com/nahucodes/video/upload/v1743471569/Grabaci%C3%B3n_de_pantalla_2025-03-31_193656_zfmico.mp4",
   },
   {
-    id: 5,
+    id: 6,
     title: "Dices App",
     description:
       "App móvil multiplataforma que emula el juego de cara o sello, un dado clásico y la icónica bola mágica 8 que responde a tus preguntas de formas inesperadas.",
@@ -109,7 +122,7 @@ export const PROJECTS_DATA = [
       "https://res.cloudinary.com/nahucodes/video/upload/v1744917058/Grabaci%C3%B3n_de_pantalla_2025-04-17_130138_b8hmtw.mp4",
   },
   {
-    id: 6,
+    id: 7,
     title: "Fullness — Plataforma de Fisioterapia",
     description:
       "Plataforma web fullstack para conectar usuarios con fisioterapeutas profesionales, con sistema de chat en tiempo real y gestión de perfiles para freelancers del sector salud.",
@@ -122,7 +135,7 @@ export const PROJECTS_DATA = [
     previewUrl: "https://fisiomfulness.vercel.app/",
   },
   {
-    id: 7,
+    id: 8,
     title: "Amigo Sorpresa",
     description:
       "Plataforma web para organizar intercambios de regalos con sorteos aleatorios, sistema de privacidad individual, acceso por código de 6 dígitos y sugerencias de regalos con imágenes.",
@@ -135,7 +148,7 @@ export const PROJECTS_DATA = [
     previewUrl: "https://amigo-sorpresa.vercel.app/",
   },
   {
-    id: 8,
+    id: 9,
     title: "Cotizador J&T Express",
     description:
       "Herramienta web no oficial para cotizar envíos de paquetes con J&T Express. Ingresa dimensiones, peso y regiones de origen/destino para obtener costos de envío con cobertura nacional en México.",
@@ -146,19 +159,7 @@ export const PROJECTS_DATA = [
     githubUrl: "",
     previewUrl: "https://jyt-cotizador.vercel.app/",
   },
-  {
-    id: 9,
-    title: "Sales Manager Dashboard",
-    description:
-      "Plataforma integral de análisis y gestión de ventas con visualización de datos en tiempo real, gráficos interactivos y backend escalable desplegado en AWS con contenedores Docker.\n\nUsuario para acceder a la plataforma:\nEmail: admin@smartforecast.com\nPassword: admin123\n\nArchivo de pruebas en la raíz del proyecto",
-    image: "/dashboard.png",
-    tags: ["Todos", "Web"],
-    stack:
-      "React 19, Tailwind CSS, Nest.js, TypeScript, Docker, AWS",
-    highlights: ["Base de Datos en AWS (RDS)", "Gráficos interactivos", "Datos en tiempo real"],
-    githubUrl: "https://github.com/EdgarFav/dashboard-aws",
-    previewUrl: "https://dashboard-aws-eight.vercel.app/",
-  },
+  
 ];
 
 export const SkillData = [
