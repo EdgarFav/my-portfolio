@@ -32,10 +32,23 @@ const HeroSection = () => {
                     <p className='text-[#ADB7BE] text-base sm:text-lg lg:text-xl mb-5 text-left text-pretty'><strong className='text-yellow-200'>+4 años de experiencia. Desarrollador Web Full Stack</strong> especializado en arquitectura de software, desarrollo de aplicaciones web y APIs. Trabajo principalmente con React, Next.js, Node.js, TypeScript, MongoDB y PostgreSQL. Actualmente también me especializo en desarrollo móvil con React Native y Flutter. Basado en Tamaulipas, México.</p>
                     <div>
 
-                        <button className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 text-white font'><Link href="https://www.linkedin.com/in/edgar-nah%C3%BA-favela-b3a639239/" target="_blank" >Trabajemos juntos</Link></button>
-                        <button className='px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-800 text-white mt-3'>
-                            <a href="/EdgarFavela-CV.pdf" target='_blank' rel="noopener noreferrer"><span className='block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2'>Ver CV</span></a>
-                        </button>
+                        <Link
+                            href="https://www.linkedin.com/in/edgar-nah%C3%BA-favela-b3a639239/"
+                            target="_blank"
+                            className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:from-blue-600 hover:to-pink-600 text-white font-medium inline-block text-center'
+                        >
+                            Trabajemos juntos
+                        </Link>
+                        <a
+                            href="/EdgarFavela-CV.pdf"
+                            target='_blank'
+                            rel="noopener noreferrer"
+                            className='px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-800 text-white mt-3 inline-block text-center'
+                        >
+                            <span className='block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2 whitespace-nowrap'>
+                                Ver CV
+                            </span>
+                        </a>
                     </div>
                 </motion.div>
                 {/* <motion.div
